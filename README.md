@@ -2,6 +2,7 @@
 k-pop girl group analysis pt.2
 
 What is this project about? 📝 
+
 [Notion Notebook for more details](https://g1gigi.notion.site/K-pop-Analysis-ongoing-fa2ba660b83445b6989cd569a22419d9?pvs=4)
 
 Website (In progress...🤫) 
@@ -20,22 +21,22 @@ This project delves into the evolution of concepts in K-pop girl groups, focusin
 
 ## Key Findings and Observations
 
-### 2005-2012
+### 2005-2009
 - Dominance of powerful but sexualized concepts.
 - Prominent girl groups: Miss A, 2NE1, Sistar.
 - Themes: Heteronormative love, independence.
 
-### 2012-2017
+### 2009-2012
 - A mix of cute and sexy concepts.
 - Prominent girl groups: SNSD, T-Ara.
 - Observations: Sexy concepts often criticized for being overly sensationalized.
 
-### 2017-2020
+### 2012-2017
 - Shift towards girlish and submissive concepts.
 - Prominent girl groups: APINK, GFriend, TWICE.
 - Usage: Heavy use of "소녀" (young girl) in titles and lyrics.
 
-### 2020s
+### 2017 - 2020s onward
 - Return to neoliberal feminism with empowering, proactive lyrics.
 - Move away from love-themed songs.
 - Prominent girl groups: MAMAMOO, Blackpink, Aespa.
