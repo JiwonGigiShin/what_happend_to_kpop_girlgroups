@@ -1,14 +1,17 @@
 # what_happend_to_kpop_girlgroups
 k-pop girl group analysis pt.2
 
-## What is this project about? 📝 
+## What is this project about? 
+[Notion Notebook for more details 📝 ](https://g1gigi.notion.site/K-pop-Analysis-ongoing-fa2ba660b83445b6989cd569a22419d9?pvs=4)
 
-[Notion Notebook for more details](https://g1gigi.notion.site/K-pop-Analysis-ongoing-fa2ba660b83445b6989cd569a22419d9?pvs=4)
+
 
 ## Website (In progress...🤫) 
-[Link 💖](https://k-pop-analysis.onrender.com/)
+[Website Link 💖](https://k-pop-analysis.onrender.com/)
 
 ![](https://github.com/JiwonGigiShin/what_happend_to_kpop_girlgroups/blob/main/for_readme/%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3.gif)
+
+
 
 
 # K-Pop Girl Groups: An Analysis of Feminism and Empowerment (2000s-2020s)
