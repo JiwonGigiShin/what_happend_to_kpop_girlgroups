@@ -13,6 +13,8 @@ from PIL import Image
 import requests
 
 app = Dash(__name__)
+server = app.server
+
 
 path = os.path.dirname(os.getcwd())
 df_album = pd.read_csv(os.path.join(path, 'data/album_with_images.csv'))
