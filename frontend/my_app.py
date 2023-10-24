@@ -32,7 +32,7 @@ app.layout = html.Div([
         html.H5('2012-2015: A mix of cute and sexy concepts with girl groups like SNSD and T-Ara, but with sexy concepts often criticized for being overly sensationalized.'),
         html.H5('2015-2020: Shift towards girlish and submissive concepts with groups like APINK, GFriend, and TWICE, with a heavy use of the word "소녀" (young girl) in group titles and lyrics.'),
         html.H5('2020s-onward: Return to neoliberal feminism with empowering, proactive lyrics and a move away from love-themed songs, seen in groups like MAMAMOO, Blackpink, and Aespa.'),
-        html.P('The project uses Natural Language Processing (NLP) as its primary method for analysis. Data is compiled and organized in a Google Spreadsheet, and visualizations are created using Google Trends. Additional references include YouTube videos on the history of K-pop girl groups, discussions on body shaming within the industry, and lists of influential K-pop songs and albums.'),
+        html.P('The project uses Natural Language Processing (NLP) as its primary method for analysis. Data is compiled and organized in a Google Spreadsheet, and visualizations are created using Python, Flask, Plotly Dash. Additional references include YouTube videos on the history of K-pop girl groups, discussions on heteronormativity within the industry, and lists of influential K-pop songs and albums.'),
         html.P("The research ultimately aims to provide a comprehensive overview of the changing themes and concepts within K-pop girl groups over the last two decades, shedding light on the industry's relationship with feminism and empowerment.")
     ]),
     html.Div([
