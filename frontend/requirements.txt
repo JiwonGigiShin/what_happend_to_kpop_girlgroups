@@ -7,7 +7,7 @@ dash-iconify==0.1.2
 dash-mantine-components==0.10.2
 dash-table==5.0.0
 dash-tools==1.11.1
-pandas==2.1.1
+pandas==1.3.5
 pandas-dq==1.28
 numpy==1.24.3
 wordcloud==1.9.2
