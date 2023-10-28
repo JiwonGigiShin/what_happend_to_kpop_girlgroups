@@ -1,16 +1,10 @@
 # Import necessary libraries
 # from dash.dependencies import Input, Output
-import dash
 from dash import Dash, html, dcc
 from dash.dependencies import Output, Input
 import pandas as pd
-# import numpy as np
 import os
-# from wordcloud import WordCloud, ImageColorGenerator
-# import base64
-# from io import BytesIO
 from PIL import Image
-# import requests
 
 app = Dash(__name__)
 server = app.server
@@ -22,7 +16,7 @@ logo_image = Image.open(os.path.join(os.getcwd(), 'data', 'girlgroup_nobg.png'))
 
 app.layout = html.Div([
     html.Div([
-        html.Img(src = logo_image)], style={'textAlign': 'center', }),
+        html.Img(src = logo_image, style = {'width': '30%', 'height': '30%'})], style={'textAlign': 'center'}),
     html.H1(children='K-Pop Girlgroup Analysis', style={'textAlign': 'center', 'color':'black', 'fontfamily': 'Poppins'}),
     html.Div([
         html.P('This project explores the evolution of K-pop girl group concepts, particularly focusing on themes of feminism and empowerment, from 2005 to the current year, 2022. It leverages multiple sources including social media, YouTube comments, song lyrics, and Google Trends for data collection and analysis. The project’s primary language focus includes Korean, English, Chinese, Spanish, and Japanese.'),
@@ -76,20 +70,20 @@ def make_image(value):
 
         images.append(html.Div(children=[
                 html.Div([
-                html.H5(album_title, style={'display': 'inline-block', 'margin-right': '10px'}),
+                html.H3(album_title, style={'display': 'inline-block', 'margin-right': '10px'}),
                 html.H5(" - ", style={'display': 'inline-block'}),
                 html.H5(year, style={'display': 'inline-block'})
             ]),
                 html.Div([
-                html.Img(src=album_image),
-                html.Img(src=pil_image)
+                html.Img(src=album_image, style={'display': 'inline-block'}),
+                html.P(' ', style={'display': 'inline-block'}),
+                html.Img(src=pil_image, style={'display': 'inline-block'})
 
                 # html.Img(src='data:image/png;base64,{}'.format(image_str))
                 ])
             ]))
 
     return images
-#
-# os.path.join(os.getcwd(), f"wordcloud/{artist_id_}_{album_id}_wc.png")
+
 if __name__ == "__main__":
     app.run_server(debug=True)
