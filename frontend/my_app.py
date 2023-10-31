@@ -11,7 +11,8 @@ server = app.server
 
 
 path = os.path.dirname(os.getcwd())
-df_album = pd.read_csv(os.path.join(path, 'data/album_with_images.csv'))
+# df_album = pd.read_csv(os.path.join(path, 'data/album_with_images.csv'))
+df_album = pd.read_csv(os.path.join(path,'data/cleaned_album_df_311023.csv'))
 logo_image = Image.open(os.path.join(os.getcwd(), 'data', 'girlgroup_nobg.png'))
 
 app.layout = html.Div([
@@ -53,7 +54,7 @@ app.layout = html.Div([
 # html - Multi Pages
 def make_image(value):
 
-    df = df_album[df_album['artist_name'] == value].dropna(subset=['song_lyrics'])
+    df = df_album[df_album['artist_name'] == value].dropna(subset=['eng']).sort_values(by='release_date')
     artist_id_ = df.artist_id.iloc[0]
     images = []
 
@@ -66,7 +67,7 @@ def make_image(value):
         #     image.save(buffer, format='png')
         #     image_str = base64.b64encode(buffer.getvalue()).decode()
 
-        pil_image = Image.open(os.path.join(os.getcwd(), f"wordcloud/{artist_id_}_{album_id}_wc.png"))
+        pil_image = Image.open(os.path.join(os.getcwd(), f"wordcloud/eng_cleaned/{artist_id_}_{album_id}_wc.png"))
 
         images.append(html.Div(children=[
                 html.Div([
