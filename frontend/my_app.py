@@ -54,7 +54,7 @@ app.layout = html.Div([
 # html - Multi Pages
 def make_image(value):
 
-    df = df_album[df_album['artist_name'] == value].dropna(subset=['eng']).sort_values(by='release_date')
+    df = df_album[df_album['artist_name'] == value].sort_values(by='release_date')
     artist_id_ = df.artist_id.iloc[0]
     images = []
 
