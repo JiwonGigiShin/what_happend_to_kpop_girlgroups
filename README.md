@@ -1,4 +1,4 @@
-# what_happend_to_kpop_girlgroups
+# what_happened_to_kpop_girlgroups
 k-pop girl group analysis pt.2
 
 ## What is this project about? 
