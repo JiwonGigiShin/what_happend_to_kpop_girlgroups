@@ -15,6 +15,7 @@ downloads/
 eggs/
 .eggs/
 for_readme/images
+keys/
 lib/
 lib64/
 parts/
