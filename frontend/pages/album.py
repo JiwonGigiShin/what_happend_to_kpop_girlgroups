@@ -6,10 +6,9 @@ from PIL import Image
 
 dash.register_page(__name__)
 
-
 path = os.path.dirname(os.getcwd())
 # df_album = pd.read_csv(os.path.join(path, 'data/album_with_images.csv'))
-df_album = pd.read_csv(os.path.join(path,'data/cleaned_album_df_311023.csv'))
+df_album = pd.read_csv(os.path.join(path,'data/updated_df_111123.csv'))
 logo_image = Image.open(os.path.join(os.getcwd(), 'data', 'girlgroup_nobg_album.png'))
 
 layout = html.Div([
@@ -62,3 +61,33 @@ def make_image(value):
             ]))
 
     return images
+
+
+
+
+# import dash
+# from dash import html, dcc, callback, Input, Output
+# import pandas as pd
+# import os
+# from PIL import Image
+
+# dash.register_page(__name__)
+
+# # logo_image = Image.open(os.path.join(os.getcwd(), 'data', 'girlgroup_nobg_home2.png'))
+
+# layout = html.Div([
+#     # html.Div([
+#         # html.Img(src = logo_image, style = {'width': '80%', 'height': '80%'})], style={'textAlign': 'center'}),
+#     html.H2('About this project', style={'margin': '20px 20px 20px 20px', 'textAlign': 'center'}),
+#     html.Div([
+#         html.H3('So, it is less hetero-normative than before?'),
+#         html.P('Boy index'),
+#         html.P('Love index'),
+#         html.P('Love N-gram'),
+#     ], style={'margin': '20px 20px 50px 50px'}),
+
+#     html.Div([
+#         html.H3("Key findings"),
+#         html.P("-")
+#     ], style={'margin': '20px 20px 50px 50px'})
+# ])

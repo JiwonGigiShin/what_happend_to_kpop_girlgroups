@@ -3,7 +3,6 @@ from dash import html
 import os
 from PIL import Image
 
-
 dash.register_page(__name__, path='/')
 
 logo_image = Image.open(os.path.join(os.getcwd(), 'data', 'girlgroup_nobg_home2.png'))
