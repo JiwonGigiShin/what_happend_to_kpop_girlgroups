@@ -7,6 +7,7 @@ __pycache__/
 *.so
 
 notebooks/
+test_frontend/
 
 # Distribution / packaging
 .Python
